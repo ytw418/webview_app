@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "428385618043",
+    "project_id": "allmap-ytw418",
+    "storage_bucket": "allmap-ytw418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428385618043:android:d62add3232fbfa49fbbade",
+        "android_client_info": {
+          "package_name": "com.example.allmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428385618043-rjuqi7q1oqo8mpda065evcf6q0811s9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.allmap",
+            "certificate_hash": "23342f6e64fef669296bfc9688eab1eb12275460"
+          }
+        },
+        {
+          "client_id": "428385618043-6ospa4f29645h4tqmjbmdqsu4c5tjpjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdfbXE7Dp10YHMn8KIy9-0FNtMIykP3CE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428385618043-6ospa4f29645h4tqmjbmdqsu4c5tjpjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
