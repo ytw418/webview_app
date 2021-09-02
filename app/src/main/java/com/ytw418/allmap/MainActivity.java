@@ -70,21 +70,29 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        try {
+            Class.forName("android.webkit.WebView")
+                    .getMethod("onPause", (Class[]) null)
+                    .invoke(webView, (Object[]) null);
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @Override
+    protected void onResume() {
+        super.onResume();
+        try {
+            Class.forName("android.webkit.WebView")
+                    .getMethod("onResume", (Class[]) null)
+                    .invoke(webView, (Object[]) null);
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+    }
 
 
 
