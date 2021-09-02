@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:428385618043:android:d62add3232fbfa49fbbade",
         "android_client_info": {
-          "package_name": "com.example.allmap"
+          "package_name": "com.ytw418.allmap"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "428385618043-rjuqi7q1oqo8mpda065evcf6q0811s9k.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.allmap",
+            "package_name": "com.ytw418.allmap",
             "certificate_hash": "23342f6e64fef669296bfc9688eab1eb12275460"
           }
         },

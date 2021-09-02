@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.allmap">
+    package="com.ytw418.allmap">
     <uses-permission android:name="android.permission.INTERNET"/> <!-- 인터넷 허용 -->
     <uses-permission android:name="android.permission.CALL_PHONE"/> <!--전화허용 -->
 
@@ -13,14 +13,14 @@
         android:roundIcon="@mipmap/ic_dyer_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.dyer">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.ytw418.allmap.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".YourClassName"
+        <service android:name="com.ytw418.allmap.YourClassName"
                  android:stopWithTask="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>

@@ -1,4 +1,4 @@
-package com.example.allmap;
+package com.ytw418.allmap;
 
 import android.app.Notification;
 import android.app.NotificationChannel;

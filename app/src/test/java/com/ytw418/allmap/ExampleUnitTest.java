@@ -1,4 +1,4 @@
-package com.example.allmap;
+package com.ytw418.allmap;
 
 import org.junit.Test;
 
